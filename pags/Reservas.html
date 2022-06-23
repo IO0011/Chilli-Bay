@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Chilli Bay - Reservas</title>
+
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+ 
+   <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+   
+
+
+<section class="header">
+
+    <a href="#" class="logo"> Chilli Bay </a>
+
+   <nav class="navbar">
+      <a href="../home.html">Home</a>
+      <a href="Menu.html">Menu</a>
+      <a href="Galeria.html">Galería</a>
+      <a href="Nosotros.html">Nosotros</a>
+      <a href="#Reservas">Reservas</a>
+      
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+<section class="body-reviews">
+   
+    <div class="form-container">
+        <form action="#" id="form">
+            
+            <div class="form-group destination">
+                <label for="destination">
+                    Nombre:
+                </label>
+                <input type="text" id="destination" class="form-control" placeholder="Ingrese su nombre: ">
+                <span class="error-msg">Este campo no puede estar en blanco</span>
+            </div>
+            
+            <div class="check-in-out">
+                <div class="form-group">
+                    <label for="checkin"> Fecha en la que se hace la reserva:</label>
+                    <div class="form-group form-group-check-in-out">
+                        <i class="fas fa-calendar-alt"></i>
+                        <input type="text" id="check-in" class="form-control">
+                        <span class="error-msg">Este campo no puede estar en blanco</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="checkout"> Fecha la que se desea reservar:</label>
+                    <div class="form-group form-group-check-out-out">
+                        <i class="fas fa-calendar-alt"></i>
+                        <input type="text" id="check-out" class="form-control">
+                        <span class="error-msg">Este campo no puede estar en blanco</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="rooms-adults-children">
+
+                <div class="form-group">
+                    <label for="adults"> Cantidad de adultos: </label>
+                    <select name="" class="form-control" id="adults">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="children"> Cantidad de niños: </label>
+                    <select name="" class="form-control" id="children">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+                
+
+                <div class="buttons">
+                    <button class="btn search-btn">
+                        RESERVAR
+                    </button>
+                </div>
+
+        </form>
+    </div>
+
+</div>
+</section>
+<footer>
+
+    <div class="icons-container">
+      
+       <div class="icons">
+          <h3>Horario</h3>
+          <p>09:00am - 12:00am</p>
+       </div>
+ 
+       <div class="icons">
+          <h3>Teléfono</h3>
+          <p>+54-1157233849</p>
+       </div>
+ 
+       <div class="icons">
+          <h3>email</h3>
+          <p>chillibay@gmail.com</p>
+       </div>
+ 
+    
+ 
+    </div>
+ 
+ 
+ </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="../scripts/form.js"></script>
+</body>
+</html>
