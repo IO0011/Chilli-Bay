@@ -212,12 +212,15 @@ section{
    font-size: 2rem;
 }
 
+#about-body{
+   background-color: black;
+}
 .about{
    display: flex;
    align-items: center;
    flex-wrap: wrap;
    gap:2rem;
-   height: 600px;
+   min-height:calc(100vh - 100px - 300px);
    background-image:url(../Freeimgs/Lambeaus_BG.jpg);
 }
 
