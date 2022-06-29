@@ -46,6 +46,9 @@ html::-webkit-scrollbar-thumb{
    background-color: green;
 }
 
+body{
+   background-color: black;
+}
 section{
    padding:5rem 10%;
 }
